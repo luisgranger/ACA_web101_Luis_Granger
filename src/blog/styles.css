@@ -1,11 +1,31 @@
-.main-container{
-  height: 100%;
-  width: 100%;
-  border: 1px solid blue
+h1{
+  color:rgb(207, 71, 7);
+  width: 60%;
+  margin: 5% auto;
 
 }
-.blog-container{
+main{
+  background: rgb(207, 71, 7);
   width: 60%;
-  height: 200%;
-  border: 1px solid red
+  margin: 5% auto;
+
+}
+article{
+  border: 2px solid grey;
+  margin: 1% auto;
+  width: 60%;
+  background: white;
+  
+}
+article > h3 {
+  font-size: 2em;
+
+}
+article:hover{
+  background: grey;
+
+}
+article:hover > h3{
+  color: rgb(207, 71, 7);
+  
 }
