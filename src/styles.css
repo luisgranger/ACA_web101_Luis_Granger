@@ -1,0 +1,33 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0%;
+  padding: 0%;
+}
+.grid-container{
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr) 5%;
+  grid-template-rows: 65% 30% 1fr;
+}
+.box{
+  height: 100%;
+  width: 100%;
+}
+.red-box{
+  background-color: red;
+}
+.blue-box{
+  background-color: blue;
+}
+.yellow-box{
+  background-color: yellow;
+}
+.pink-box{
+  background-color: pink;
+}
+.green-box{
+  background-color: green;
+}
