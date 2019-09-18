@@ -1,24 +1,55 @@
-.main-container{
-  height: 100%;
+* {
+  box-sizing: border-box;
+}
+
+Body{
+  background-color: beige;
+  border: 10px solid;
+}
+
+image{
+display: inline-block;
+}
+
+main {
   width: 100%;
-  border: 2px solid;
+  height: 100%;
 }
-img{
-  height: 80%;
-  width: 80%;
+.main-container {
+  /* height: 70%; */
+  width: 100%;
 }
-p{
+.top-stories{
+  width: 70%;
+
+}
+
+header {
+  display: inline-block;
+  width: 70%;
+}
+p {
   font-size: 20px;
 
 }
 button{
   background: grey;
-  font-size: 18px;
-  
+  font-size: 18px;  
 }
 
+.top-stories{
+  display: inline-block;
+  width: 60%;
+  text-align: left;
+}
+footer{
+  height: 60%;
+  width: 60%;
+  text-align: center;
+} 
+
 @media (min-width: 576px) {
-*/mobile first/*
+mobile first
 }
 @media (min-width: 768px) {
 
