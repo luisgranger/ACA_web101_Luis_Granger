@@ -17,7 +17,7 @@ main {
   text-align: center;
   font-size: 2em;
 }
-section {
+.main-container {
   display: flex;
   height: 324px;
   flex-direction: row;
@@ -32,6 +32,6 @@ article {
   width: 270px;
   height: 374px;
   background-color: rgb(224, 222, 222);
- justify-content: space-between;
+ justify-content: flex-start
  border: 1px solid black;
 }
