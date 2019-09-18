@@ -1,0 +1,37 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  width: 850px;
+  margin: o auto;
+
+}
+
+main {
+  margin: 0 auto;
+  height: 450px;
+  background-image: url(./NasaPic.jpg);
+  color: white;
+  font-family: 'Anton', sans-serif;
+  text-align: center;
+  font-size: 2em;
+}
+section {
+  display: flex;
+  height: 324px;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(224, 222, 222);
+
+
+}
+
+article {
+  display: flex;
+  width: 270px;
+  height: 374px;
+  background-color: rgb(224, 222, 222);
+ justify-content: space-between;
+ border: 1px solid black;
+}
