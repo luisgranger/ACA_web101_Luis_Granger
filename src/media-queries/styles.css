@@ -1,0 +1,28 @@
+.main-container{
+  height: 100%;
+  width: 100%;
+  border: 2px solid;
+}
+img{
+  height: 80%;
+  width: 80%;
+}
+p{
+  font-size: 20px;
+
+}
+button{
+  background: grey;
+  font-size: 18px;
+  
+}
+
+@media (min-width: 576px) {
+*/mobile first/*
+}
+@media (min-width: 768px) {
+
+}
+@media (min-width: 992px) {
+
+}
